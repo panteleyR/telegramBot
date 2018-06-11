@@ -35,7 +35,7 @@ include_once ('func.php');
         <?php
 $cert='cert.pem';
     $myCurl = curl_init();
-    $murl='https://mospolybot.ru/bot.php';
+    $murl2='https://mospolybot.ru/bot.php';    $murl='https://telegram-apppp.herokuapp.com/bot.php';
     print_r('@'.realpath($cert));
 
   print_r($murl);
